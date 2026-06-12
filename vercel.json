@@ -8,8 +8,12 @@
           "value": "attachment; filename=\"$1.pdf\""
         },
         {
+          "key": "Content-Type",
+          "value": "application/octet-stream"
+        },
+        {
           "key": "Cache-Control",
-          "value": "public, max-age=3600"
+          "value": "public, max-age=0, must-revalidate"
         }
       ]
     }
